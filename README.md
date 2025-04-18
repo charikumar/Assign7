@@ -40,7 +40,7 @@ gcc -std=c11 -Wall -Wextra -O2 -o stats stats.c
 ocaml stats.ml
 
 # OR compile to bytecode
-ocamlc -o stats_bc stats.ml && ./stats_bc
+ocamlc -o stats stats.ml && ./stats
 
 # OR compile native
 ocamlopt -o stats stats.ml && ./stats
